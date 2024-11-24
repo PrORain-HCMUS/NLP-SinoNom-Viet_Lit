@@ -1,0 +1,10 @@
+{
+    "token": "df5219ce-f765-4af8-b553-596c04602935",
+    "email": "llehoangvum10@gmail.com",
+    "image": "YOUR_BASE64_ENCODED_IMAGE_STRING",
+    "char_ocr": false,
+    "det_mode": "auto",
+    "image_size": 0,
+    "return_position": false,
+    "return_choices": false
+}
