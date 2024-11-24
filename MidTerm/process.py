@@ -10,7 +10,7 @@ with open('kdk.json', 'r') as f:
     config = json.load(f)
 
 # Đường dẫn đến thư mục chứa ảnh
-IMAGE_FOLDER = "img"  # Thay đổi thành thư mục chứa ảnh của bạn
+IMAGE_FOLDER = "MidTerm/test_data"  # Thay đổi thành thư mục chứa ảnh của bạn
 # Đường dẫn để lưu kết quả
 RESULT_FOLDER = "result"  # Thư mục lưu kết quả
 

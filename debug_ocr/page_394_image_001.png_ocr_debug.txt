@@ -1,0 +1,97 @@
+Debug OCR kết quả cho page_394_image_001.png
+==================================================
+
+Language: chi_tra
+------------------------------
+華 里 馳 蹦 渡 我 郊
+凌凌朔吹拂星旋
+斗南星闌回頭近
+漢 北 關 山 引 步 高
+雲 擁暹晴凝旅思
+峰搖稷罩蕙征袍
+一聲何虢風前笭
+吹動吟鏖逞響翱
+記2 己ppZ﹣
+RNA 9guUAN ﹖g&N 6
+Van ii trni khu d6 ngg giao，
+Lang 18ng 86c xGy phgt tinh Tnao﹒
+&gu Naxn tinh Khuygt h6i 晝u cgn，
+&an Bgc quan 80n dg&n b6 cao﹒， ﹒
+&n nng vgn tinh ngurng h {d，
+Phong dao tich thdy tr&n chinh bao﹒
+Nhgt thanh ha xd phong tign dich，
+Xuy d6ng ngg& trgn truc hudng cao﹒
+406
+
+Số ký tự Hán: 59
+
+Language: chi_sim
+------------------------------
+南关晓渡
+节里驰骚渡我郯
+凌凌朔吹拂星旋
+斗南星关回头近
+汉北关山 引步高
+虹据晓普疑旅思
+峰摄积翠龙征袍
+一声何处风前 笈
+吹动吟鏖返容翱
+Phi8n 6rr:
+
+NAM CUAN VYAKN DG
+
+Van i tri khu 46 ng8 giao,
+
+Lang 1ang s6c xdy ph鲁 tinh mao.
+
+BP&u Nam tinh khuyt h6i dau can,
+
+Han B&kc quan sgn d&n b6 cao0,
+
+Van ang van tinh ngung 1 td,
+
+Phong dqao ttch thdy tram chinh b&0.
+
+MNh张 thanh ha xd phong ti$n dich,
+
+Xuy 4d6ng ngam tran truc hufng ca0.
+
+406
+
+Số ký tự Hán: 62
+
+Language: combined
+------------------------------
+南關晚漢
+華 里 馳 蹦 渡 我 郊
+凌凌朔吹拂星旋
+斗南星关回头近
+漢 北 關 山 引步高
+雲 擁暹晴凝旅思
+峰搖稷罩蕙征袍
+一聲何虢風前笭
+吹動吟鏖逞響翱
+Phi8n 6rr:
+
+NAM CUAN VYAKN 6
+
+Van ii tri khu 46 ng8 giao，
+
+Lang 18ng s6c xGy phgt tinh mao.
+
+&gu Nam tinh Khuygt h6i 晝u cgn，
+
+Han Bgc quan 80n d&n b6 cao0, ﹒
+
+Van nng van tinh ngung h td,
+
+Phong dao tich thdy tram chinh bao﹒
+
+Nhgt thanh ha xd phong tign dich，
+
+Xuy d6ng ngg& trgn truc hudng cao﹒
+
+406
+
+Số ký tự Hán: 61
+

@@ -1,0 +1,117 @@
+Debug OCR kết quả cho page_380_image_001.png
+==================================================
+
+Language: chi_tra
+------------------------------
+Hoang H s6ng d&y ﹩ &m ﹁
+470， Vuogt ngang ta hgy vGng cgn 1﹩1 ta
+Rhoi khoi m6t lach Thanh Ea，﹀
+Cat bang thgn th&n kh6i sa Tni mi﹒
+ao Nguyen 13 dat nay ru﹖
+LGa ngu thgn thg&， trang thu ]au Iau﹀
+475﹒         Bigt ai ma 89i trugc ﹩au，
+Cganh thanh da thgy， nggzn hgu Vu Lgng ﹒
+岱&y v﹩6 con 6n gigng vgng，
+C6 thanh suong da treo ngang rhin 18u﹒
+Migu 6ng Huygn Ddc noi d&u ，
+480﹒ MNay phen bg& bigc ru6ng d&u hay con﹒
+Trei soi m6t tgin nign SoD，
+Ngan ngtn ba tuGng vu6ng tyon ba phgn﹒
+Be Truung vugt can 18n i&n ”
+Ce dau cu6n gi6 18i tugn TGc thi8n﹒
+485﹒         不nh hiung cau khi s0n xuysn，
+Chgng hay thu6 gy mgy phen 亞 v6﹒
+Nuc non vlng vac td b6，
+Rhgch thuygn thgy nhudng nguyet kg ben song﹒ ﹒
+Trigu duong b6ng dai non d6ng，
+490﹒ XXa bAng m6t lach nu6c th6ng HHa Bi﹒”
+DY Rigu phong c&nh con ghi ﹁
+Luu Hau choi dg&y thog&t khi higm nghso﹒
+1﹒ S6ng Iioang Iia﹒
+﹒ 7 Gn五 五6﹕ T6n tratD﹒
+3﹒ 壬n gE 工Uia Chal﹒
+4﹒ 五My6 上22 Luu Tiuygn Ddc tde Luu Bi thai 了an 凸u6c﹒
+5﹒ 一& 7reoyg﹕ Chi vi8c Truong RKhign di sd Tg&y Vue，va tim dung 18n s5ng
+E&n lgn﹒
+色， 五Q 丑17 Su6i I1a BB1﹒
+7﹒， 珍 盲洋Mz NNoi phong c&nh dep﹒
+392
+
+Số ký tự Hán: 18
+
+Language: chi_sim
+------------------------------
+Hoang Ha s6ng day &m &m 「
+470,Vugt ngang ta hay vGng cam 181 ta,
+Khai khoi met lach Thanh Ha, “
+Cat bang than than kh6i sa mbu mt.
+Bao Nguyen la dat nay ru?
+Lifa ngu thgm th&am, tr&ng thu 1&u ]au “
+475.         Bigt ai ma goi trulfe sau,
+Canh thanh d8a thay, ng&m h&u Vb Lang.
+May v con en giang Vamng,
+C6 thanh suong da treo ngang rBm 1au,
+Migu 6ng Huyen Ptifc nai dau “
+480.、May phen b bigc rueng dau hay cbn.
+Trbi soi m6t t6m niemm son,
+Ngan nsm ba tuong vu6ng trbn ba phan.
+Be Truong vugt can lan ln 5
+Ct dau cudn gi6 lai tusn Tde thi8n.
+485.         Anh hung csu kKhi son xXuy8nL,
+Chang hay thu6 iy may phen di v6.
+MNuIGc non v&ng v&c t be,
+Khach thuyen thay nhting nguy6t k6 ben song-..
+Trieu duong b6ng dai non 4d6ng,
+490、Xa bang m6t lach nudc th6ng Ha Bi.5
+Di Ki8u phong canh cbn ghi,“
+Luu Hsu chqi day thoat khi higm ngheo.
+1, S6ag Hoang Ha.
+2. TlanA RG: T8h tratm,
+3. Ha ngur: Liia chai,
+4. Huy6n Piie: Lu Huygn Pde tte Luu Bi thbi Tam Qugc.
+5. 88 Truiorg: Chi viec Truang Khign di sd T&y Vude,v& tim dubng 18n 86ng
+Ngan Han.
+6. Ra Bi: Suii Ha Bi,
+T7. Df RKigt: Nai phong c&nh de p.
+392
+
+Số ký tự Hán: 0
+
+Language: combined
+------------------------------
+Hoang Ha s6ng day &m &m ﹁
+470,Vugt ngang ta hay vGng cam 1﹩1 ta,
+Khai khoi m6t lach Thanh Ha, “
+Cat bang than than kh6i sa Tni mt.
+Bao Nguyen la dat nay ru﹖
+LGa ngu thgm th&am, trang thu ]au ]au “
+475.         Bigt ai ma goi trugc sau,
+Canh thanh da thgy， nggzn hgu Vu Lgng ﹒
+May v con 6n gigng vgng，
+C6 thanh suong da treo ngang rBm 18u﹒
+Migu 6ng Huygn Ddc noi d&u ，
+480﹒ MNay phen b bigc ru6ng dau hay con﹒
+Trei soi m6t tgin nign son,
+Ngan nsm ba tuGng vu6ng trbn ba phgn﹒
+Be Truong vugt can 18n i&n ”
+Ct dau cu6n gi6 18i tugn TGc thi8n﹒
+485﹒         Anh hung csu khi s0n xuysn，
+Chang hay thu6 gy mgy phen di v6﹒
+MNuIGc non v&ng v&c td b6，
+Khach thuygn thgy nhudng nguyet kg ben song﹒ ﹒
+Trieu duong b6ng dai non d6ng，
+490﹒ XXa bAng m6t lach nu6c th6ng Ha Bi.5
+DY Rigu phong canh cbn ghi ﹁
+Luu Hsu choi dg&y thoat khi higm nghso﹒
+1﹒ S6ng Hoang Ha.
+2. TlanA 五6﹕ T8h tratD﹒
+3. Ha ngur: 工Uia chai,
+4. Huy6n Piie: Luu Huygn Pde tde Luu Bi thbi Tam 凸u6c﹒
+5. 一& Truiorg: Chi viec Truong RKhign di sd T&y Vue，va tim dubng 18n 86ng
+Ngan Han.
+6. Ra Bi: Suii Ha Bi,
+T7. Df 盲洋Mz Nai phong c&nh de p.
+392
+
+Số ký tự Hán: 6
+
