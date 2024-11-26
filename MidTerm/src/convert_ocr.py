@@ -3,7 +3,7 @@ from google.cloud import vision
 from google.oauth2 import service_account
 
 # Đường dẫn tới file key.json của bạn
-key_path = "key.json"
+key_path = "api/key.json"
 
 # Thiết lập thông tin xác thực từ file key.json
 credentials = service_account.Credentials.from_service_account_file(key_path)

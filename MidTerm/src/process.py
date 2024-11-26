@@ -6,7 +6,7 @@ from concurrent.futures import ThreadPoolExecutor
 import time
 
 # Thông tin config từ file JSON
-with open('kdk.json', 'r') as f:
+with open('api/kdk.json', 'r') as f:
     config = json.load(f)
 
 # Đường dẫn đến thư mục chứa ảnh
