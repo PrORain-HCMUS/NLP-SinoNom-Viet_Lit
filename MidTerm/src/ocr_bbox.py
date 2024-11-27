@@ -1,3 +1,32 @@
+"""
+File Name: ocr_bbox.py
+Author: Lê Hoàng Vũ
+Date: 25.11.2024
+Description:
+    - Script này sử dụng Google Cloud Vision API để nhận diện và trích xuất văn bản từ các hình ảnh.
+    - Văn bản được lọc để chỉ giữ lại các ký tự tiếng Hán và tọa độ bounding box của chúng.
+    - Kết quả được lưu vào các tệp .txt, mỗi dòng chứa văn bản và tọa độ bounding box tương ứng.
+Features:
+    1. Sử dụng Google Vision API để phát hiện văn bản từ ảnh.
+    2. Lọc chỉ các ký tự tiếng Hán (Unicode từ U+4E00 đến U+9FFF).
+    3. Xác định tọa độ bounding box của các dòng ký tự.
+    4. Xuất kết quả ra các tệp .txt tương ứng, với định dạng: văn bản + bounding box.
+    5. Tự động xóa các tệp văn bản rỗng để tránh lưu trữ không cần thiết.
+Input:
+    - Thư mục đầu vào (`input_folder`): Chứa các ảnh (.png, .jpg, .jpeg).
+Output:
+    - Thư mục đầu ra (`output_folder`): Chứa các tệp .txt với kết quả nhận diện.
+Usage:
+    - Cài đặt Google Cloud Vision API và cung cấp tệp key.json.
+    - Định nghĩa đường dẫn `input_folder` và `output_folder`.
+    - Chạy script:
+        python ocr_bbox.py
+Notes:
+    - Đảm bảo đã thiết lập Google Cloud Vision API và file key.json chính xác.
+    - File đầu vào phải là ảnh (.png, .jpg, .jpeg).
+    - Script có thể xử lý nhiều ảnh cùng một lúc.
+"""
+
 import os
 from google.cloud import vision
 from google.oauth2 import service_account
