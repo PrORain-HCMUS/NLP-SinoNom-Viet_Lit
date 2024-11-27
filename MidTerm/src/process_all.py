@@ -1,3 +1,7 @@
+"""
+    Hiện tại không còn sử dụng
+"""
+
 import cv2
 import numpy as np
 import pytesseract
