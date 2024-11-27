@@ -1,3 +1,7 @@
+"""
+    Script nhỏ để test tính năng tool kandianguji ocr
+"""
+
 import json
 import requests
 
