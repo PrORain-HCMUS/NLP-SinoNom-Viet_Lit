@@ -1,6 +1,33 @@
 """
-    Hiện tại không còn sử dụng
+File Name: extract.py
+Author: Lê Hoàng Vũ
+Date: 24.11.2024
+Description:
+    - Script này trích xuất nội dung văn bản và hình ảnh từ một file PDF và lưu vào các thư mục riêng biệt.
+    - Văn bản sẽ được trích xuất và lưu vào thư mục text_output_dir dưới dạng các file .txt.
+    - Hình ảnh sẽ được trích xuất và lưu vào thư mục image_output_dir với định dạng gốc của hình ảnh.
+    - Script sử dụng pdfplumber để trích xuất văn bản và PyMuPDF (fitz) để trích xuất hình ảnh.
+Features:
+    1. Trích xuất văn bản từ file PDF và lưu vào các file .txt.
+    2. Trích xuất tất cả các hình ảnh từ file PDF và lưu vào thư mục riêng biệt.
+    3. Lưu các file văn bản và hình ảnh vào các thư mục do người dùng chỉ định.
+Input:
+    - pdf_path (str): Đường dẫn đến file PDF cần trích xuất dữ liệu.
+    - text_output_dir (str): Thư mục để lưu các file văn bản trích xuất từ PDF.
+    - image_output_dir (str): Thư mục để lưu các hình ảnh trích xuất từ PDF.
+Output:
+    - Các file văn bản được lưu trong thư mục text_output_dir.
+    - Các hình ảnh được lưu trong thư mục image_output_dir.
+Usage:
+    - Đảm bảo rằng file PDF đầu vào tồn tại và có nội dung.
+    - Chạy script với lệnh:
+        python extract.py
+Notes:
+    - Các file văn bản sẽ được lưu theo tên trang, ví dụ "page_001.txt".
+    - Các hình ảnh sẽ được lưu theo tên trang và số thứ tự của hình ảnh trong trang, ví dụ "page_001_image_001.jpg".
+    - Các thư mục lưu trữ văn bản và hình ảnh sẽ được tự động tạo nếu chưa tồn tại.
 """
+
 
 import fitz  # PyMuPDF
 import os
