@@ -1,3 +1,28 @@
+"""
+File Name: convert_api.py
+Author: Lê Hoàng Vũ
+Date: 26.11.2024
+Description:
+    - Script này đọc dữ liệu từ file Excel, chuyển tự chữ Hán Nôm (cột 'SinoNom Char') 
+      sang chữ Quốc ngữ (Âm Hán Việt) thông qua API clc-sinonom.
+    - Sau khi chuyển tự, dữ liệu mới được thêm vào một cột 'Âm Hán Việt' 
+      và được lưu vào file Excel đầu ra.
+Input:
+    - File Excel đầu vào (input_excel_path): Chứa cột 'SinoNom Char', trong đó cột 'Âm Hán Việt' chưa có nội dung.
+Output:
+    - File Excel đầu ra (output_excel_path): Bao gồm cột 'Âm Hán Việt' đã được cập nhật.
+Usage:
+    - Định nghĩa đường dẫn file đầu vào và đầu ra.
+    - Chạy script:
+        python convert_api.py
+Notes:
+    - Cần kết nối internet để sử dụng API.
+    - Đảm bảo API server hoạt động trước khi chạy script.
+    - Thêm thời gian trễ giữa các yêu cầu API để tránh giới hạn từ server.
+    - Nếu có abort ở một số dòng vì server từ chối kết nối hãy lựa 1 thời gian khác chạy lại những dòng thiếu.
+"""
+
+
 import os
 import pandas as pd
 import requests
