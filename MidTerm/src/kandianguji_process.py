@@ -1,3 +1,37 @@
+"""
+File Name: kandianguji_process.py
+Author: Lê Hoàng Vũ
+Date: 24.11.2024
+Description:
+    - Script này sử dụng API Kandianguji OCR để nhận diện văn bản từ các hình ảnh trong thư mục.
+    - Ảnh được mã hóa thành chuỗi base64 và gửi qua API để nhận diện văn bản.
+    - Kết quả nhận diện được lưu dưới dạng JSON, bao gồm thông tin về trạng thái phản hồi và kết quả trả về từ API.
+    - Hỗ trợ xử lý ảnh song song với `ThreadPoolExecutor` để tăng tốc độ.
+    - Tổng kết và thống kê kết quả sẽ được lưu vào một file `summary.json`.
+Features:
+    1. Đọc và mã hóa ảnh thành base64.
+    2. Gửi yêu cầu đến API OCR để nhận diện văn bản.
+    3. Lưu kết quả trả về từ API dưới dạng file JSON cho từng ảnh.
+    4. Xử lý song song các ảnh để tăng hiệu suất sử dụng.
+    5. Lưu tổng kết quá trình xử lý vào file `summary.json`.
+Input:
+    - Thư mục chứa ảnh (IMAGE_FOLDER): Chứa các ảnh có định dạng .png, .jpg, .jpeg, .gif, .bmp.
+    - Thư mục lưu kết quả (RESULT_FOLDER): Lưu các kết quả JSON cho từng ảnh và tổng kết.
+Output:
+    - Thư mục lưu kết quả (RESULT_FOLDER): Lưu kết quả cho từng ảnh và tổng kết vào các tệp JSON.
+Usage:
+    - Cung cấp file cấu hình `api/kdk.json` để cấu hình API.
+    - Đặt đường dẫn thư mục chứa ảnh vào biến `IMAGE_FOLDER` và thư mục lưu kết quả vào biến `RESULT_FOLDER`.
+    - Chạy script:
+        python kandianguji_process.py
+Notes:
+    - Đảm bảo đã cung cấp file cấu hình `kdk.json` với thông tin cần thiết.
+    - Thư mục `RESULT_FOLDER` sẽ chứa các file JSON kết quả cho từng ảnh và một file `summary.json` tổng kết.
+    - Thư mục chứa ảnh (`IMAGE_FOLDER`) có thể chứa các định dạng ảnh phổ biến như .png, .jpg, .jpeg, .gif, .bmp.
+    - Chạy script với tốc độ song song cho nhiều ảnh cùng lúc để tiết kiệm thời gian xử lý.
+"""
+
+
 import json
 import requests
 import base64
