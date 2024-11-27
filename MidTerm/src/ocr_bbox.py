@@ -117,8 +117,8 @@ def ocr_images_in_folder(input_folder, output_folder):
                 print(f"Results saved to {output_txt_path}")
 
 # Đường dẫn thư mục đầu vào và đầu ra
-input_folder = "MidTerm/test_data"  # Thư mục chứa ảnh
-output_folder = "MidTerm/test_output"    # Thư mục lưu kết quả
+input_folder = "MidTerm/filtered_data"  # Thư mục chứa ảnh
+output_folder = "MidTerm/output"    # Thư mục lưu kết quả
 
 # Gọi hàm để xử lý các ảnh trong thư mục đầu vào và lưu kết quả vào thư mục output
 ocr_images_in_folder(input_folder, output_folder)

@@ -60,8 +60,8 @@ def update_excel_with_transliteration(input_excel_path, output_excel_path):
     print(f"Updated Excel file created at {output_excel_path}")
 
 # Đường dẫn file Excel đầu vào và đầu ra
-input_excel_path = 'MidTerm/output_csv/sino_nom_ocr_results.xlsx'
-output_excel_path = 'MidTerm/output_csv/api_sinonom.xlsx'
+input_excel_path = 'MidTerm/output_csv/TTVH6.xlsx'
+output_excel_path = 'MidTerm/output_csv/LeHoangVu_TTVH6.xlsx'
 
 # Chạy hàm cập nhật Excel
 update_excel_with_transliteration(input_excel_path, output_excel_path)

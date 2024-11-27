@@ -38,8 +38,8 @@ def convert_txt_to_excel(input_folder, output_excel_path):
     print(f"Excel file created at {output_excel_path}")
 
 # Specify input and output paths
-input_folder = 'MidTerm/test_output'
-output_excel_path = 'MidTerm/output_csv/sino_nom_ocr_results.xlsx'
+input_folder = 'MidTerm/output'
+output_excel_path = 'MidTerm/output_csv/TTVH6.xlsx'
 
 # Run the conversion
 convert_txt_to_excel(input_folder, output_excel_path)
