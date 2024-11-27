@@ -1,3 +1,30 @@
+"""
+File Name: filter_img.py
+Author: Lê Hoàng Vũ
+Date: 24.11.2024
+Description:
+    - Script này lọc các ảnh từ thư mục `data_folder` dựa trên sự tồn tại của các tệp văn bản tương ứng trong thư mục `output_folder`.
+    - Các ảnh có tên phù hợp với các tệp văn bản sẽ được sao chép vào thư mục `filtered_data_folder`.
+    - Tên tệp ảnh và tệp văn bản được xác định dựa trên số thứ tự trong tên tệp ảnh.
+Features:
+    1. Lọc ảnh từ thư mục `data_folder` dựa trên các tệp văn bản trong thư mục `output_folder`.
+    2. Các ảnh có tên trùng khớp với tệp văn bản sẽ được sao chép vào thư mục `filtered_data_folder`.
+    3. Tạo thư mục `filtered_data_folder` nếu chưa tồn tại.
+Input:
+    - Thư mục chứa các ảnh (data_folder): Chứa các tệp ảnh .png.
+    - Thư mục chứa các tệp văn bản (output_folder): Chứa các tệp .txt tương ứng với ảnh.
+Output:
+    - Thư mục đầu ra (filtered_data_folder): Lưu các ảnh đã lọc và sao chép.
+Usage:
+    - Đặt đường dẫn thư mục chứa ảnh vào biến `data_folder` và thư mục chứa tệp văn bản vào biến `output_folder`.
+    - Chạy script:
+        python filter_img.py
+Notes:
+    - Tệp ảnh phải có định dạng .png và tên có chứa số thứ tự (ví dụ: page_001.png).
+    - Chỉ những ảnh có tệp văn bản tương ứng mới được sao chép vào thư mục đầu ra.
+"""
+
+
 import os
 import shutil
 
