@@ -1,3 +1,7 @@
+"""
+    Script nhỏ để test tính năng thêm tọa độ bounding box 
+"""
+
 import cv2
 
 # Load the image
