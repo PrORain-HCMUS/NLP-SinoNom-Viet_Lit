@@ -1,3 +1,7 @@
+"""
+    Script nhỏ để test tính năng tool clc ocr
+"""
+
 import requests
 
 # Đường dẫn API
