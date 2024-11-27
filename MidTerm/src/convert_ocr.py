@@ -1,3 +1,37 @@
+"""
+File Name: convert_ocr.py
+Author: Lê Hoàng Vũ
+Date: 25.11.2024
+Description:
+    - Phiên bản cũ hơn của convert_api.py
+    - Script này sử dụng Google Cloud Vision API để nhận diện văn bản từ hình ảnh.
+    - Văn bản nhận diện được lọc chỉ giữ lại các ký tự Trung Quốc và được ghi vào các tệp văn bản .txt.
+    - Mỗi tệp văn bản chứa các ký tự Trung Quốc và các dòng văn bản được căn chỉnh dựa trên bounding box của từng đoạn văn bản.
+    - Tạo tệp txt cho mỗi ảnh, lưu kết quả vào thư mục chỉ định.
+    - Xóa các tệp txt rỗng để tránh lưu trữ không cần thiết.
+Features:
+    1. Sử dụng Google Cloud Vision API để nhận diện văn bản trong ảnh.
+    2. Lọc chỉ các ký tự Trung Quốc từ văn bản nhận diện.
+    3. Xử lý văn bản và lưu kết quả vào các tệp txt tương ứng.
+    4. Xử lý các ảnh trong thư mục đầu vào và lưu kết quả vào thư mục đầu ra.
+    5. Tự động xóa các tệp txt rỗng sau khi xử lý.
+Input:
+    - Thư mục chứa ảnh (input_folder): Chứa các ảnh định dạng .png, .jpg, .jpeg.
+Output:
+    - Thư mục lưu kết quả (output_folder): Chứa các tệp .txt với kết quả nhận diện văn bản từ ảnh.
+Usage:
+    - Cài đặt Google Cloud Vision API và cung cấp tệp key.json.
+    - Định nghĩa đường dẫn `input_folder` và `output_folder`.
+    - Chạy script:
+        python convert_ocr.py
+Notes:
+    - Đảm bảo đã thiết lập Google Cloud Vision API và file key.json chính xác.
+    - Script này có thể xử lý nhiều ảnh trong thư mục cùng lúc và lưu kết quả cho từng ảnh vào tệp txt.
+    - Các tệp txt sẽ chứa văn bản Trung Quốc được nhận diện, mỗi dòng văn bản tách biệt bởi khoảng cách bounding box.
+    - Tệp txt sẽ bị xóa nếu không chứa bất kỳ văn bản nào sau khi xử lý.
+"""
+
+
 import os
 from google.cloud import vision
 from google.oauth2 import service_account
