@@ -1,7 +1,7 @@
 import requests
 
 # Đường dẫn API
-url = "https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/sinonom-verse-translation"  # Cập nhật URL chính xác
+url = "https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/sinonom-prose-translation"  # Cập nhật URL chính xác
 
 # Headers
 headers = {
