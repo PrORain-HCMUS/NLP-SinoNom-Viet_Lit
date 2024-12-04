@@ -49,8 +49,8 @@ def process_images_in_folder(input_folder, output_folder):
                     output_file.write(ocr_text)
                 
                 # Kiểm tra nội dung OCR
-                if "Phiên âm" in ocr_text or "Dịch nghĩa" in ocr_text:
-                    print(f"File {output_txt_path} contains 'Phiên âm' or 'Dịch nghĩa'. Keeping it.")
+                if "Dịch nghĩa" in ocr_text:
+                    print(f"File {output_txt_path} contains 'Dịch nghĩa'. Keeping it.")
                 else:
                     # Xóa file nếu không chứa từ khóa
                     os.remove(output_txt_path)
@@ -61,7 +61,7 @@ def process_images_in_folder(input_folder, output_folder):
 
 # Đường dẫn thư mục đầu vào và đầu ra
 input_folder = "MidTerm/data"  # Thư mục chứa ảnh
-output_folder = "MidTerm/src/add translation column/translation output"        # Thư mục lưu kết quả OCR
+output_folder = "MidTerm/src/add translation column/data"        # Thư mục lưu kết quả OCR
 
 # Gọi hàm xử lý
 process_images_in_folder(input_folder, output_folder)

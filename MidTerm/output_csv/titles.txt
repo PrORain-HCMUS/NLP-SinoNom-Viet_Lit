@@ -1,11 +1,11 @@
 1. Hỗ giá chinh thuận kỷ hành
-2. Nam minh tự thử kình ba thiếp
+2. Hỗ giá chinh thuận kỷ hành
 3. Chương dương hoài cổ
 4. Thần phù sơn
 5. Thiên uy cảng
 6. Quế
 7. Hạ quốc lão yên quận công phạm công giả trí sĩ
-8. Lộ công dung chỉ thượng tân đồ
+8. Hạ quốc lão yên quận công phạm công giả trí sĩ
 9. Thứ vận hạ quốc lão phương quận công
 10. Tiễn đại thanh sứ trình phương triều
 11. Tiễn sách phong phó sứ trương dịch bôn
@@ -32,7 +32,7 @@
 32. Hoàng hoa thập vịnh
 33. Sứ bắc thuật hoài hoà chánh sứ thiên mụ
 34. Tín dương sơn hành
-35. Hán khẩu thuật hoài
+35. Tín dương sơn hành
 36. An túc tuyết hành
 37. Quách cự hoạch kim
 38. Liêm tướng quân mộ
@@ -49,8 +49,8 @@
 49. Sứ bắc thuật hoài hoà ắt bộ chính sử
 50. Trọng cấu thạch khê kiều kỷ chi thi
 51. Thứ vận hạ hộ bộ tả thị lang phái nam
-52. Tặng đại thanh sử chu xán
-53. Ngâm thành hảo câu tam giang nguyệt
+52. Thứ vận hạ hộ bộ tả thị lang phái nam
+53. Thứ vận hạ hộ bộ tả thị lang phái nam
 54. Tặng đại thanh sử chu xán
 55. Hoạ chu xán miễn học đọc thư thi
 56. Thứ vận hạ quốc lão phương quận công vũ duy chí trí sĩ
@@ -58,12 +58,12 @@
 58. Phụng hoạ ngự chế xuân nguyên thi
 59. Thứ vận hạ quốc lão phương quận công vũ duy chí
 60. Phụng hoạ thứ vận hạ công bộ thượng thư thi khánh bá
-61. Hữu ước giản tuyền vượn hạc lứa
+61. Phụng hoạ thứ vận hạ công bộ thượng thư thi khánh bá
 62. Đại nhân hạ tham chính nguyễn đăng long trí sĩ
 63. Thứ vận giá tự khanh lê sẽ cẩn trí sĩ
 64. Thứ vận giá hữu thị lang quế hải hầu
 65. Thứ vận giá lễ bộ thượng thư khánh sơn bá
-66. Túc vọng tất năng lưu quỹ tiệc
+66. Thứ vận giá lễ bộ thượng thư khánh sơn bá
 67. Tiễn bạn tống trương hồi bắc kinh hoà phó sứ
 68. Phụng hoạ ngự chế xuân nguyên thi
 69. Mộ xuân bồi giá quan thử thừa hứng
@@ -73,17 +73,17 @@
 73. Phụng mệnh vãng khám hạ cát giới đê lộ
 74. Lương giang
 75. Đồng tham trấn quan hội ẩm nhân lý tân biết
-76. Minh trà âu lý bạt kỳ thương
+76. Đồng tham trấn quan hội ẩm nhân lý tân biết
 77. Thần phù thị
 78. Hạ thiên kiện tham trấn
 79. Kinh phúc bồi
-80. Hành thương phù khả lai hoàn vãng
+80. Kinh phúc bồi
 81. Thứ vận hạ đại lý tự khanh nhuệ lĩnh nam
 82. Tiêm giác quán tức sự
 83. Thính oa minh ngẫu thành
 84. Động đình tú sắc
 85. Vũ xương giai cảnh
-86. Thu nguyệt quang phù quế tử hương
+86. Vũ xương giai cảnh
 87. Quế lâm cảnh trí
 88. Khán lữ xá bích thượng hoạ trúc đồ
 89. Lạng sơn thành hiểu phát
@@ -95,31 +95,31 @@
 95. Quá ân thái sư tỉ can mộ
 96. Giang hành tức sự
 97. Quá bình lạc dịch ấn sơn đình
-98. Đề quan phu tử miếu
+98. Quá bình lạc dịch ấn sơn đình
 99. Hàm đan hoài cổ
 100. Đông triều tiên quốc sứ du tập nhất lý thế cẩn
 101. Đông triều tiên quốc sứ du tập nhất lý thế cẩn
 102. Đông triều tiên quốc sứ du tập nhất lý thế cẩn
-103. Vãn ứng sơn dương trung liệt công
+103. Đông triều tiên quốc sứ du tập nhất lý thế cẩn
 104. Thứ vận hạ công bộ thượng thư
 105. Thứ vận hạ hộ bộ tả thị lang
 106. Thứ vận hạ tự khanh lê sẽ cẩn trí sĩ
-107. Bích thuỷ thanh sơn cung nhã thú
+107. Thứ vận hạ tự khanh lê sẽ cẩn trí sĩ
 108. Thứ vận hạ tham tụng hộ bộ thượng thư
 109. Thứ vận hạ hữu thị lang mai hải hầu
-110. Hội thượng kỳ anh tửu mãn xa
+110. Thứ vận hạ hữu thị lang mai hải hầu
 111. Thứ vận hạ quốc lão phương quận công
 112. Hoạ chu xán lưu biệt thi
 113. Vô cầu ngâm
 114. Hựu nhất phiến đề
 115. Tự thuật
-116. Tuấn vũ khung lung đồ tứ bích
+116. Tự thuật
 117. Tư quy điền ngẫu thành
 118. Tự cảnh
 119. Tương giang thất tịch
 120. Thứ vận hạ công bộ thượng thư thi khánh bá
-121. Hán dương công quán đoan ngọ nhật
-122. Đức bão hà phương phiếm tửu trường
+121. Thứ vận hạ công bộ thượng thư thi khánh bá
+122. Thứ vận hạ công bộ thượng thư thi khánh bá
 123. Phụng hoạ ngự chế xuân nguyên thi
 124. Thứ vận hạ đại lý tự khanh
 125. Thứ vận hạ công bộ thượng thư thi khánh bá
@@ -133,43 +133,43 @@
 133. Quá động đình hồ
 134. Đăng hoàng hạc lâu
 135. Qua lỗ vọng khuyết lý
-136. Bác hậu uyên tuyền trường hạo hạo
+136. Qua lỗ vọng khuyết lý
 137. Thứ vận hạ quốc lão liêm quận công
 138. Thứ vận hạ công bộ thượng thư thi khánh bá
 139. Thứ vận hạ tả thị lang lâm quế tử
-140. Thứ vận hạ thái thường tự khanh
-141. Giai tiền hoè quế vĩnh chung lưu
+140. Thứ vận hạ tả thị lang lâm quế tử
+141. Thứ vận hạ tả thị lang lâm quế tử
 142. Đề nam nhạc hoành sơn
 143. Mộ bạc tương tư châu nhân cảm đề
 144. Quá bán tiên nham
 145. Ngộ phúc kiến khách khâu đỉnh thần lai phỏng
 146. Đáp tướng bạn tống tặng phiến tinh hương
 147. Tư thân thuật hoài
-148. Điêu diêu dịch thứ trú chinh tương
-149. Phù tràng phan nhạc cánh hà như
-150. Đến học yêu kiều hí phượng lân
-151. Thu diệp thu tiêu não khách trình
+148. Tư thân thuật hoài
+149. Tư thân thuật hoài
+150. Tư thân thuật hoài
+151. Tư thân thuật hoài
 152. Tặng lễ bộ lang trung nghiêm tất vinh
 153. Bắc sứ trú ngô châu
 154. Hạ liêm quận công nguyễn quý đức
 155. Hoạ trần tố am du ngô thành thi
-156. Phong khinh vi diệp thuyền
+156. Hoạ trần tố am du ngô thành thi
 157. Đăng hoàng hạc lâu hán dương thụ
 158. Tống vạn tống lan tượng
-159. Hưng yên tức cảnh
+159. Tống vạn tống lan tượng
 160. Tặng lạc bình tri phủ
-161. Tặng quảng tây tuần phủ
+161. Tặng lạc bình tri phủ
 162. Thứ vận hạ quốc lão liêm quận công
 163. Đề vũ nương miếu
 164. Ngư chu hội thực
 165. Dược đao
 166. Phỏng hữu bất ngộ
 167. Tiêu dao ngâm
-168. Hành vân lưu thuỷ tuỳ sở như
+168. Tiêu dao ngâm
 169. Lão âu mộ thị
-170. Quy lai đồng tử nghinh môn tiếu
+170. Lão âu mộ thị
 171. Thanh sơn hoài cảnh
-172. Ca quản lâu khương phấn bích dư
+172. Thanh sơn hoài cảnh
 173. Lữ hoài khiển hứng
 174. Lạng sơn hình thế
 175. Nam quan vãn độ
@@ -178,25 +178,25 @@
 178. Tiêu tương vãn diểu
 179. Cổ thành hoài cảm
 180. Trường sa vãn diểu
-181. Ngư yên dao tiếp hồ thiên bắc
+181. Trường sa vãn diểu
 182. Hoành sơn lữ thứ
 183. Phải cung trí tửu
 184. Ô giang đình trưởng
 185. Nhân khí
 186. Tô vũ mục dê
-187. Trung quân nhị tự càn khôn tịnh
-188. Quan vũ
+187. Tô vũ mục dê
+188. Tô vũ mục dê
 189. Tam cố thảo lư
 190. Sơn hành ngẫu tác
-191. Lịch hiểm tạm thư nhân lúc bí
+191. Sơn hành ngẫu tác
 192. Nam quan vãn độ
 193. Thượng càng dạ túc
-194. Thốn hoài thiết thạch lăng yên chướng
-195. Chu trình dạ vũ
+194. Thượng càng dạ túc
+195. Thượng càng dạ túc
 196. Sơn đông ký kiến
 197. Giang châu lữ thứ
 198. Dịch đình thừa dương xa phú
-199. Xích đế chi tinh quan thành bại dĩ chiêu ở tiền liệt tức án du
+199. Dịch đình thừa dương xa phú
 200. Phụng sứ yên kinh tổng ca
 201. Đinh ninh sổ ngữ ôn tồn nhất chương
 202. Nhị thiên nhất lộ tình quang
@@ -207,11 +207,11 @@
 207. Hiến bài phát khởi phương dân dậy thuyền
 208. Diệu minh không sắc hiện tiền
 209. Chính nguyệt nhị thập tam nhật việt
-210. Tượng lưu ngẩn trĩ xuất đồng sơn
+210. Chính nguyệt nhị thập tam nhật việt
 211. Thuận phong ổn phiếm
 212. Kinh là sơn dung hữu cảm tác nhất luật
-213. Thuỷ sơn tự
-214. Triều trướng đà canh gian phạm chung
+213. Kinh là sơn dung hữu cảm tác nhất luật
+214. Kinh là sơn dung hữu cảm tác nhất luật
 215. Đề vân nham động
 216. Thu nhật thư hoài
 217. Trường lưu bát cảnh
@@ -230,23 +230,23 @@
 230. Dạ ẩm
 231. Vịnh vũ nữ tẩy túc
 232. Nghĩ quá giả nghị trạch hoà đường trường khanh
-233. Cô trinh minh hứa thạch sàng tri
+233. Nghĩ quá giả nghị trạch hoà đường trường khanh
 234. Long hồ đại phong kỷ hoài
-235. Lậu ốc huống vi phong bá nọ
+235. Long hồ đại phong kỷ hoài
 236. Long hồ ngoạ bệnh
 237. Khuất nguyên
 238. Kinh kha
 239. Hàn tín
 240. Kim dư lan đào
-241. Đắc thuỷ ngư long tuỳ biến hoá
+241. Kim dư lan đào
 242. Bình sơn điệp thuý
 243. Tiêu tự thần chung
 244. Giang thành dạ cổ
-245. Khách những cảnh dạ toả kim giáp
+245. Giang thành dạ cổ
 246. Thạch động thôn vân
 247. Châu nham lạc lộ
 248. Đông hồ ấn nguyệt
-249. Trạm khoát ứng hàm thiên đãng dạng
+249. Đông hồ ấn nguyệt
 250. Nam phố trùng ba
 251. Lộc trĩ thôn cư
 252. Lư khê ngư bạc
@@ -257,4 +257,3 @@
 257. Lư khê nhàn điếu
 258. Lư khê nhàn điếu
 259. Lư khê nhàn điếu
-260. Thôn nhị than đầu đa ê tuyến

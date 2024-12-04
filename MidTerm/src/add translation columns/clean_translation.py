@@ -55,7 +55,7 @@ def clean_all_txt_files_in_folder(folder_path):
 
 
 # Đường dẫn thư mục chứa các file .txt
-output_folder = "MidTerm/src/add translation columns/translation output"
+output_folder = "MidTerm/src/add translation column/data"
 
 # Gọi hàm xử lý
 clean_all_txt_files_in_folder(output_folder)
