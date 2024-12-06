@@ -1,0 +1,184 @@
+1. Hỗ giá chinh thuận kỷ hành, HGCTKH, 2
+2. Chương dương hoài cổ, CDHC, 1
+3. Thần phù sơn, TPS, 1
+4. Thiên uy cảng, TUC, 1
+5. Quế, Q, 1
+6. Hạ quốc lão yên quận công phạm công giả trí sĩ, HQLYQCPCGTS, 2
+7. Thứ vận hạ quốc lão phương quận công, TVHQLPQC, 2
+8. Tiễn đại thanh sứ trình phương triều, TATSTPT, 1
+9. Tiễn sách phong phó sứ trương dịch bôn, TSPPSTDB, 1
+10. Chí sĩ giản đồng triều, CSGOT, 3
+11. Tặng đại thanh sử chu xán, TATSCX, 2
+12. Giảng dụ cực hiên vũ tiên, GDCHVT, 1
+13. Tứ tiến sĩ đệ bồi tòng hữu thị lang đông hà tử, TTSEBTHTLOHT, 1
+14. Phụng sự tiềm để công thần công bộ hữu thị lang hương, PSTECTCBHTLH, 1
+15. Phụng thị tán hộ bộ lang trung an phú tử tặng thượng, PTTHBLTAPTTT, 1
+16. Tứ tiến sĩ đệ công khoa cấp sự trung tặng công, TTSECKCSTTC, 1
+17. Đông các hiệu thư diên trạch bá trí sĩ tặng đông các học, OCHTDTBTSTOCH, 1
+18. Hựu tụng vân, HTV, 1
+19. Kệ vân, KV, 1
+20. Hựu kệ, HK, 2
+21. Chúc kệ vân, CKV, 1
+22. Vịnh văn miếu thi, VVMT, 2
+23. Hoàng hoa thập vịnh, HHTV, 4
+24. Sứ bắc thuật hoài hoà chánh sứ thiên mụ, SBTHHCSTM, 1
+25. Tín dương sơn hành, TDSH, 2
+26. An túc tuyết hành, ATTH, 1
+27. Quách cự hoạch kim, QCHK, 1
+28. Liêm tướng quân mộ, LTQM, 1
+29. Dữu lý thành, DLT, 1
+30. Kỳ hà, KH, 1
+31. Hoàng hà, HH, 1
+32. Túc hiếu cảm huyện, THCH, 1
+33. Đăng chu, AC, 1
+34. Cảm hứng, CH, 1
+35. Mộ xuân cảm tác, MXCT, 1
+36. Độc phật kinh hữu cảm, OPKHC, 1
+37. Hoàng hạc lâu, HHL, 1
+38. Hoa dẫn táo đình cúng bạch tuyết, HDTICBT, 1
+39. Sứ bắc thuật hoài hoà ắt bộ chính sử, SBTHHABCS, 1
+40. Trọng cấu thạch khê kiều kỷ chi thi, TCTKKKCT, 1
+41. Thứ vận hạ hộ bộ tả thị lang phái nam, TVHHBTTLPN, 3
+42. Hoạ chu xán miễn học đọc thư thi, HCXMHOTT, 1
+43. Thứ vận hạ quốc lão phương quận công vũ duy chí trí sĩ, TVHQLPQCVDCTS, 1
+44. Hoạ chu xán lưu biệt thi, HCXLBT, 2
+45. Phụng hoạ ngự chế xuân nguyên thi, PHNCXNT, 3
+46. Thứ vận hạ quốc lão phương quận công vũ duy chí, TVHQLPQCVDC, 1
+47. Phụng hoạ thứ vận hạ công bộ thượng thư thi khánh bá, PHTVHCBTTTKB, 2
+48. Đại nhân hạ tham chính nguyễn đăng long trí sĩ, ANHTCNALTS, 1
+49. Thứ vận giá tự khanh lê sẽ cẩn trí sĩ, TVGTKLSCTS, 1
+50. Thứ vận giá hữu thị lang quế hải hầu, TVGHTLQHH, 1
+51. Thứ vận giá lễ bộ thượng thư khánh sơn bá, TVGLBTTKSB, 2
+52. Tiễn bạn tống trương hồi bắc kinh hoà phó sứ, TBTTHBKHPS, 1
+53. Mộ xuân bồi giá quan thử thừa hứng, MXBGQTTH, 1
+54. Bút sàng trà táo cúng ngâm hứng, BSTTCNH, 1
+55. Hạ thự phủ trịnh lân phó trấn thái nguyên, HTPTLPTTN, 1
+56. Trùng cửu hậu tứ nhật dữ nguyễn thượng thư hội đặng thiếu, TCHTNDNTTHAT, 1
+57. Phụng mệnh vãng khám hạ cát giới đê lộ, PMVKHCGEL, 1
+58. Lương giang, LG, 1
+59. Đồng tham trấn quan hội ẩm nhân lý tân biết, OTTQHANLTB, 2
+60. Thần phù thị, TPT, 1
+61. Hạ thiên kiện tham trấn, HTKTT, 1
+62. Kinh phúc bồi, KPB, 2
+63. Thứ vận hạ đại lý tự khanh nhuệ lĩnh nam, TVHALTKNLN, 1
+64. Tiêm giác quán tức sự, TGQTS, 1
+65. Thính oa minh ngẫu thành, TOMNT, 1
+66. Động đình tú sắc, OITS, 1
+67. Vũ xương giai cảnh, VXGC, 2
+68. Quế lâm cảnh trí, QLCT, 1
+69. Khán lữ xá bích thượng hoạ trúc đồ, KLXBTHTO, 1
+70. Lạng sơn thành hiểu phát, LSTHP, 1
+71. Mạc phủ doanh vãn trú, MPDVT, 1
+72. Đặng lặc dịch, ALD, 1
+73. Hoàng sào thành, HST, 1
+74. Lập xuân nhật tức sự, LXNTS, 1
+75. Đáp phong thành cống sinh nhậm quang hỉ, APTCSNQH, 1
+76. Quá ân thái sư tỉ can mộ, QATSTCM, 1
+77. Giang hành tức sự, GHTS, 1
+78. Quá bình lạc dịch ấn sơn đình, QBLDASI, 2
+79. Hàm đan hoài cổ, HAHC, 1
+80. Đông triều tiên quốc sứ du tập nhất lý thế cẩn, OTTQSDTNLTC, 4
+81. Thứ vận hạ công bộ thượng thư, TVHCBTT, 1
+82. Thứ vận hạ hộ bộ tả thị lang, TVHHBTTL, 1
+83. Thứ vận hạ tự khanh lê sẽ cẩn trí sĩ, TVHTKLSCTS, 2
+84. Thứ vận hạ tham tụng hộ bộ thượng thư, TVHTTHBTT, 1
+85. Thứ vận hạ hữu thị lang mai hải hầu, TVHHTLMHH, 2
+86. Vô cầu ngâm, VCN, 1
+87. Hựu nhất phiến đề, HNPE, 1
+88. Tự thuật, TT, 2
+89. Tư quy điền ngẫu thành, TQINT, 1
+90. Tự cảnh, TC, 1
+91. Tương giang thất tịch, TGTT, 1
+92. Thứ vận hạ công bộ thượng thư thi khánh bá, TVHCBTTTKB, 5
+93. Thứ vận hạ đại lý tự khanh, TVHALTK, 1
+94. Tuý ngâm đình thượng tần khuynh, TNITTK, 1
+95. Đồn doanh vọng nguyệt ức hữu, ODVNUH, 1
+96. Kỳ nhị, KN, 1
+97. Kỳ tam, KT, 1
+98. Kỳ lục, KL, 1
+99. Đăng bình lạc ấn sơn đình, ABLASI, 1
+100. Tư thân thuật hoài hoà địch hiên vần, TTTHHIHV, 1
+101. Quá động đình hồ, QOIH, 1
+102. Đăng hoàng hạc lâu, AHHL, 1
+103. Qua lỗ vọng khuyết lý, QLVKL, 2
+104. Thứ vận hạ quốc lão liêm quận công, TVHQLLQC, 2
+105. Thứ vận hạ tả thị lang lâm quế tử, TVHTTLLQT, 3
+106. Đề nam nhạc hoành sơn, ENNHS, 1
+107. Mộ bạc tương tư châu nhân cảm đề, MBTTCNCE, 1
+108. Quá bán tiên nham, QBTN, 1
+109. Ngộ phúc kiến khách khâu đỉnh thần lai phỏng, NPKKKITLP, 1
+110. Đáp tướng bạn tống tặng phiến tinh hương, ATBTTPTH, 1
+111. Tư thân thuật hoài, TTTH, 5
+112. Tặng lễ bộ lang trung nghiêm tất vinh, TLBLTNTV, 1
+113. Bắc sứ trú ngô châu, BSTNC, 1
+114. Hạ liêm quận công nguyễn quý đức, HLQCNQU, 1
+115. Hoạ trần tố am du ngô thành thi, HTTADNTT, 2
+116. Đăng hoàng hạc lâu hán dương thụ, AHHLHDT, 1
+117. Tống vạn tống lan tượng, TVTLT, 2
+118. Tặng lạc bình tri phủ, TLBTP, 2
+119. Đề vũ nương miếu, EVNM, 1
+120. Ngư chu hội thực, NCHT, 1
+121. Dược đao, DA, 1
+122. Phỏng hữu bất ngộ, PHBN, 1
+123. Tiêu dao ngâm, TDN, 2
+124. Lão âu mộ thị, LAMT, 2
+125. Thanh sơn hoài cảnh, TSHC, 2
+126. Lữ hoài khiển hứng, LHKH, 1
+127. Lạng sơn hình thế, LSHT, 1
+128. Nam quan vãn độ, NQVO, 2
+129. Giang thôn mộ bạc, GTMB, 1
+130. Thái thạch hoài thanh liên, TTHTL, 1
+131. Tiêu tương vãn diểu, TTVD, 1
+132. Cổ thành hoài cảm, CTHC, 1
+133. Trường sa vãn diểu, TSVD, 2
+134. Hoành sơn lữ thứ, HSLT, 1
+135. Phải cung trí tửu, PCTT, 1
+136. Ô giang đình trưởng, OGIT, 1
+137. Nhân khí, NK, 1
+138. Tô vũ mục dê, TVMD, 3
+139. Tam cố thảo lư, TCTL, 1
+140. Sơn hành ngẫu tác, SHNT, 2
+141. Thượng càng dạ túc, TCDT, 3
+142. Sơn đông ký kiến, SOKK, 1
+143. Giang châu lữ thứ, GCLT, 1
+144. Dịch đình thừa dương xa phú, DITDXP, 2
+145. Phụng sứ yên kinh tổng ca, PSYKTC, 1
+146. Đinh ninh sổ ngữ ôn tồn nhất chương, INSNOTNC, 1
+147. Nhị thiên nhất lộ tình quang, NTNLTQ, 1
+148. Quý xuân sơ ngũ thuyền khai trường hành, QXSNTKTH, 1
+149. Thử giai lưỡng quảng địa phương, TGLQIP, 1
+150. Chiêu bằng vàng đột ngạn trung trúc thành, CBVONTTT, 1
+151. Ma không tiễu bích tông ngột, MKTBTN, 1
+152. Hiến bài phát khởi phương dân dậy thuyền, HBPKPDDT, 1
+153. Diệu minh không sắc hiện tiền, DMKSHT, 1
+154. Chính nguyệt nhị thập tam nhật việt, CNNTTNV, 2
+155. Thuận phong ổn phiếm, TPOP, 1
+156. Kinh là sơn dung hữu cảm tác nhất luật, KLSDHCTNL, 3
+157. Đề vân nham động, EVNO, 1
+158. Thu nhật thư hoài, TNTH, 1
+159. Trường lưu bát cảnh, TLBC, 1
+160. Kim dư lan đào, KDLA, 3
+161. Bình sơn điệp thuý, BSIT, 2
+162. Tiêu tự thần chung, TTTC, 2
+163. Giang thành dạ cổ, GTDC, 3
+164. Thạch động thôn vân, TOTV, 2
+165. Châu nham lạc lộ, CNLL, 2
+166. Đông hồ ấn nguyệt, OHAN, 3
+167. Nam phố trùng ba, NPTB, 2
+168. Lộc trĩ thôn cư, LTTC, 2
+169. Lư khê ngư bạc, LKNB, 2
+170. Kiếm, K, 1
+171. Đề tùng rằng, ETR, 1
+172. Dạ ẩm, DA, 1
+173. Vịnh vũ nữ tẩy túc, VVNTT, 1
+174. Nghĩ quá giả nghị trạch hoà đường trường khanh, NQGNTHUTK, 2
+175. Long hồ đại phong kỷ hoài, LHAPKH, 2
+176. Long hồ ngoạ bệnh, LHNB, 1
+177. Khuất nguyên, KN, 1
+178. Kinh kha, KK, 1
+179. Hàn tín, HT, 1
+180. Lư khê nhàn điếu phú, LKNIP, 1
+181. Dõi tuần thương chi đắc lộ có vật ngã chi hữu cùng, DTTCALCVNCHC, 1
+182. Khê khẩu hồ bình hải đầu quang mãng, KKHBHAQM, 1
+183. Hữu thời ngộ ở phong cao lãng chấn hề đa sử nhân ở hãn hãi hồn kinh, HTNOPCLCHASNOHHHK, 1
+184. Lư khê nhàn điếu, LKNI, 4

@@ -1,154 +1,120 @@
-'''
-# Giả sử bạn có các thông tin sau cho mỗi trang  
-pages = [  
-    {  
-        "id": "TTVH6_057",  
-        "title": "扈駕征順紀行",  
-        "sentences": [  
-            {"text": "乘風志士喜功名", "bounding_box": [678, 2366, 1237, 2434]},   # Câu cuối  
-        ]  
-    },  
-    {  
-        "id": "TTVH6_058",  
-        "title": "南溟自此鯨波帖",  
-        "sentences": [  
-            {"text": "南溟自此鯨波帖", "bounding_box": [714, 245, 1287, 314]},   # Câu đầu  
-            {"text": "江漢湯湯佇告成", "bounding_box": [715, 346, 1285, 419]},   # Câu thứ hai  
-        ]  
-    }  
-]  
-
-# Đoạn mã để kiểm tra tiêu đề cho các trang liền kề  
-for i in range(len(pages) - 1):  
-    previous_page = pages[i]  
-    next_page = pages[i + 1]  
-    
-    # Lấy câu cuối của trang trước  
-    last_sentence_prev = previous_page["sentences"][-1]["text"]  
-    len_last_sentence_prev = len(last_sentence_prev)  
-
-    # Kiểm tra câu đầu của trang sau  
-    first_sentence_next = next_page["sentences"][0]["text"]  
-    len_first_sentence_next = len(first_sentence_next)  
-
-    # Kiểm tra câu thứ hai của trang sau (nếu có)  
-    len_second_sentence_next = len(next_page["sentences"][1]["text"]) if len(next_page["sentences"]) > 1 else 0  
-
-    # Kiểm tra yếu tố 1: Câu đầu thuộc phần đầu trang  
-    # (Giả sử tọa độ bounding box được lưu lưu trữ ở dạng mảng)  
-    is_in_first_part = next_page["sentences"][0]["bounding_box"][1] < 300  # Chỉ ví dụ  
-
-    # Kiểm tra yếu tố 2: So sánh độ dài ký tự  
-    condition_1 = (len_last_sentence_prev == len_first_sentence_next)  
-    condition_2 = (len_last_sentence_prev == len_second_sentence_next)  
-
-    # Nếu thỏa mãn cả 2 điều kiện  
-    if is_in_first_part and (condition_1 or condition_2):  
-        next_page["title"] = previous_page["title"]  # Gán tiêu đề  
-
-# Kết quả  
-for page in pages:  
-    print(f"ID: {page['id']}, Title: {page['title']}")
-'''
-
-
-
 import pandas as pd
 import ast
+import unicodedata
+import re
+
+def extract_abbreviation(title):
+    # Remove diacritical marks
+    normalized = unicodedata.normalize('NFKD', title).encode('ascii', 'ignore').decode('utf-8')
+    
+    # Split into words and take first letters
+    words = normalized.split()
+    
+    # Special handling for Vietnamese words
+    abbr = ''.join([word[0].upper() for word in words])
+    
+    return abbr
 
 def extract_titles_from_excel(file_path):
-    # Đọc file Excel
+    # Read Excel file
     df = pd.read_excel(file_path)
     
-    titles = []
+    titles = {}
     current_id = None
     title = None
     previous_title = None
     last_text = None
     previous_page = None
 
-    # Duyệt qua từng dòng trong DataFrame
+    # Iterate through each row in the DataFrame
     for index, row in df.iterrows():
         row_id = row['ID']
         char = row['Âm Hán Việt']
         image_box = row['ImageBox']
         
-        # Kiểm tra xem image_box có phải là kiểu dữ liệu hợp lệ không
+        # Check if image_box is a valid data type
         if isinstance(image_box, str):
             try:
-                image_box = ast.literal_eval(image_box)  # Chuyển chuỗi về dạng list
+                image_box = ast.literal_eval(image_box)  # Convert string to list
             except:
-                continue  # Nếu không thể chuyển đổi, bỏ qua dòng này
+                continue  # Skip this row if conversion fails
         
-        # Nếu image_box không có tọa độ hợp lệ, bỏ qua dòng này
+        # Skip if no valid image box coordinates
         if not image_box or len(image_box) < 1:
             continue
         
-        # Lấy số trang từ ID (phần số sau dấu gạch dưới)
+        # Get page number from ID
         try:
-            page_number = int(row_id.split('_')[-1])  # Lấy số trang từ ID, ví dụ TTVH6_057 -> 57
+            page_number = int(row_id.split('_')[-1])
         except ValueError:
-            continue  # Nếu không thể chuyển đổi thành số, bỏ qua dòng này
+            continue  # Skip if cannot convert to number
         
-        # Chuyển ID thành số để so sánh
-        current_id_number = int(row_id.split('_')[-1])  # Tách phần số từ ID và chuyển thành int
+        # Convert ID to number for comparison
+        current_id_number = int(row_id.split('_')[-1])
         
-        # Kiểm tra nếu ID và trang thay đổi
+        # Check if ID and page change
         if current_id_number != (int(current_id.split('_')[-1]) if current_id else None):
-            if title:  # Lưu lại tiêu đề cũ nếu không phải trang đầu tiên
-                titles.append((current_id, title))
-            title = char.strip()  # Cập nhật tiêu đề mới
+            if title:  # Save previous title if not first page
+                if title not in titles:
+                    titles[title] = 1
+                else:
+                    titles[title] += 1
+            title = char.strip()  # Update new title
             current_id = row_id
 
-        # Kiểm tra điều kiện nối văn bản giữa hai trang (chỉ xét các trang liên tiếp)
+        # Check text connection conditions between two pages
         if previous_page is not None and page_number == previous_page + 1:
-            # Điều kiện nối văn bản chỉ xét khi 2 trang liên tiếp
+            # First condition: equal number of words
             first_line_match = len(char.strip().split()) == len(last_text.strip().split())
             
-            # Điều kiện 2: Đếm số lượng ký tự trong câu đầu trang sau và câu cuối trang trước
+            # Second condition: equal character length
             second_line_match = False
             if index + 1 < len(df):
-                next_row = df.iloc[index + 1]  # Lấy dòng tiếp theo
+                next_row = df.iloc[index + 1]
                 next_char = next_row['Âm Hán Việt']
                 
-                # Nếu dòng tiếp theo cùng ID và ở trang sau
+                # If next row is same ID and page, check character length
                 if next_row['ID'] == row_id and len(next_char.strip()) == len(last_text.strip()):
                     second_line_match = True
             
-            # Nếu thỏa mãn điều kiện 1 hoặc điều kiện 2 và là các trang liên tiếp
+            # If conditions met and pages are consecutive
             if first_line_match or second_line_match:
-                title = previous_title  # Gán tiêu đề của trang trước cho trang sau
+                title = previous_title  # Use previous page's title
         else:
-            # Nếu không phải trang liên tiếp (x-2 trở đi), gán tiêu đề mới cho trang hiện tại
+            # If not consecutive pages
             if previous_page is not None and page_number > previous_page + 1:
                 title = char.strip()
             else:
-                # Nếu vẫn tiếp tục với trang liên tiếp, giữ tiêu đề của trang trước
+                # Continue with previous page's title
                 title = previous_title if previous_title else char.strip()
 
-        # Lưu lại thông tin cho trang trước
+        # Save information for previous page
         previous_page = page_number
         last_text = char.strip()
         previous_title = title
 
-    # Lưu tiêu đề cuối cùng
-    if title and title not in [t[1] for t in titles]:
-        titles.append((current_id, title))
+    # Save last title
+    if title:
+        if title not in titles:
+            titles[title] = 1
+        else:
+            titles[title] += 1
 
     return titles
 
-# Đường dẫn đến file Excel của bạn
+# Path to Excel file
 file_path = 'MidTerm/output_csv/TTVH6_LHVu.xlsx'
 
-# Lấy danh sách tiêu đề
-titles = extract_titles_from_excel(file_path)
+# Get titles with line counts
+titles_dict = extract_titles_from_excel(file_path)
 
-# Ghi danh sách tiêu đề vào file
-output_file_path = 'MidTerm/output_csv/titles.txt'
+# Write titles to file with abbreviations and line counts
+output_file_path = 'MidTerm/output_csv/titles_with_count.txt'
 
 with open(output_file_path, 'w', encoding='utf-8') as file:
-    for idx, title in enumerate(titles, 1):
-        if len(title[1]) > 2:  # Lọc ra các tiêu đề hợp lệ
-            file.write(f"{idx}. {title[1]}\n")
+    for idx, (title, count) in enumerate(titles_dict.items(), 1):
+        if len(title) > 2:  # Filter valid titles
+            abbr = extract_abbreviation(title)
+            file.write(f"{idx}. {title}, {abbr}, {count}\n")
 
-print(f"Đã ghi danh sách tiêu đề vào {output_file_path}")
+print(f"Titles with counts written to {output_file_path}")

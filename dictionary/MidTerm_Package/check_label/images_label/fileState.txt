@@ -1,0 +1,3 @@
+images_label/Bondaytrecon_page001.png	1
+images_label/Bondaytrecon_page003.png	1
+images_label/Bondaytrecon_page005.png	1

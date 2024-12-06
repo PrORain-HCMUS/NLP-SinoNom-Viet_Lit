@@ -24,7 +24,6 @@ def clean_text_file(file_path):
             last_uppercase_line_index -= 1
         lines = lines[last_uppercase_line_index:]
 
-    
     # Xác định tiêu đề và nội dung
     title_lines = []
     content_lines = []
@@ -40,14 +39,27 @@ def clean_text_file(file_path):
     # Gộp các dòng tiêu đề thành một dòng duy nhất
     title = ' '.join(title_lines)
     
-    # Làm sạch nội dung phần thân
+    # Xử lý các dòng "Dịch nghĩa:" và "Dịch thơ:"
     cleaned_content_lines = []
+    skip_lines = False  # Biến để theo dõi khi cần bỏ qua phần "Dịch thơ:"
     for line in content_lines:
-        # Loại bỏ các số không nằm trong ngoặc
-        cleaned_line = re.sub(r'(?<!\()\b\d+\b(?!\))', '', line)
-        # Chỉ thêm dòng không rỗng
-        if cleaned_line.strip():
-            cleaned_content_lines.append(cleaned_line.strip())
+        stripped_line = line.strip()
+        
+        if "Dịch thơ:" in stripped_line:
+            # Khi gặp "Dịch thơ:", bỏ qua từ đây trở đi
+            skip_lines = True
+            break
+        
+        if "Dịch nghĩa:" in stripped_line:
+            # Bỏ qua dòng "Dịch nghĩa:"
+            continue
+
+        if not skip_lines:
+            # Loại bỏ các số không nằm trong ngoặc
+            cleaned_line = re.sub(r'(?<!\()\b\d+\b(?!\))', '', line)
+            # Chỉ thêm dòng không rỗng
+            if cleaned_line.strip():
+                cleaned_content_lines.append(cleaned_line.strip())
     
     # Kết hợp tiêu đề và nội dung
     cleaned_content = f"{title}\n" + '\n'.join(cleaned_content_lines)
@@ -78,7 +90,7 @@ def process_folder(input_folder, output_folder):
 
 # Thư mục đầu vào và đầu ra
 input_folder = 'MidTerm/src/add translation column/data'
-output_folder = 'MidTerm/src/add translation column/cleant_data'
+output_folder = 'MidTerm/src/add translation column/clean_data'
 
 # Chạy xử lý
 process_folder(input_folder, output_folder)
