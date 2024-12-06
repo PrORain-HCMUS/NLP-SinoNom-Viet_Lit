@@ -1,3 +1,32 @@
+"""
+File Name: preprocessing.py
+Author: Lê Hoàng Vũ
+Date: 07.12.2024
+Description:
+    - Script này đọc dữ liệu từ file Excel, cập nhật cột 'ID' với chữ viết tắt 
+      được tạo từ tiêu đề văn bản (cột 'Âm Hán Việt') trong dữ liệu.
+    - Sau khi tạo chữ viết tắt từ tiêu đề, các ID trong file Excel sẽ được cập nhật với chữ viết tắt 
+      và lưu vào một file Excel mới.
+Input:
+    - File Excel đầu vào (file_path): Chứa các cột 'ID', 'Âm Hán Việt' và 'ImageBox'.
+    - Cột 'ID' chứa các giá trị ID dạng chuỗi, 'Âm Hán Việt' chứa các tiêu đề văn bản, 
+      và 'ImageBox' chứa các tọa độ hình ảnh dưới dạng chuỗi.
+Output:
+    - File Excel đầu ra: Bao gồm cột 'ID' đã được cập nhật, trong đó mỗi ID sẽ có chữ viết tắt mới.
+Usage:
+    - Định nghĩa đường dẫn file Excel đầu vào và gọi hàm `update_id_with_abbreviations` để cập nhật ID.
+    - Chạy script:
+        python update_abbreviation.py
+Notes:
+    - Cần đảm bảo rằng cột 'ImageBox' chứa dữ liệu hợp lệ dưới dạng chuỗi tọa độ.
+    - Các ID phải có định dạng đúng để có thể tách được số trang từ ID.
+    - Hàm `extract_abbreviation` tạo chữ viết tắt từ tiêu đề, loại bỏ dấu diacritics và lấy chữ cái đầu của mỗi từ.
+    - Nếu không thể chuyển đổi tọa độ trong 'ImageBox', dòng đó sẽ bị bỏ qua.
+    - Hàm sẽ tự động bỏ qua các dòng nếu không có tọa độ hình ảnh hợp lệ hoặc nếu không thể tách được số trang từ ID.
+"""
+
+
+
 import pandas as pd
 import ast
 import unicodedata
