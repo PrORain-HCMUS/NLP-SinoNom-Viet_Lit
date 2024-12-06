@@ -1,3 +1,32 @@
+"""
+File Name: add_translation_column.py
+Author: Lê Hoàng Vũ
+Date: 07.12.2024
+Description:
+    - Script này đọc dữ liệu từ file Excel, thêm một cột 'Dịch nghĩa' vào DataFrame.
+    - Dữ liệu trong cột 'Dịch nghĩa' được lấy từ các file .txt, mỗi file tương ứng với một trang trong dữ liệu.
+    - Các dòng dịch nghĩa từ file .txt sẽ được thêm vào cột 'Dịch nghĩa' của mỗi dòng trong DataFrame, theo thứ tự ID của mỗi nhóm.
+    - Sau khi thêm cột 'Dịch nghĩa', file Excel mới sẽ được lưu lại.
+Input:
+    - File Excel đầu vào (excel_file_path): Chứa các cột 'ID' và các thông tin văn bản cần dịch.
+    - Thư mục chứa file dịch nghĩa (txt_dir_path): Các file .txt chứa các dòng dịch nghĩa tương ứng với mỗi trang.
+    - File Excel đầu ra (output_file_path): File Excel mới sau khi đã thêm cột 'Dịch nghĩa'.
+Output:
+    - File Excel đầu ra (output_file_path): Bao gồm cột 'Dịch nghĩa' đã được cập nhật từ các file dịch nghĩa.
+Usage:
+    - Định nghĩa đường dẫn file Excel đầu vào, thư mục chứa file dịch nghĩa và đường dẫn file đầu ra.
+    - Chạy script:
+        python add_translation_column.py
+Notes:
+    - Đảm bảo rằng các file dịch nghĩa có tên theo định dạng "page_001.txt", "page_002.txt", ...
+    - Số dòng trong file dịch nghĩa sẽ được cắt bớt nếu nhiều hơn số dòng trong mỗi trang của file Excel.
+    - Hàm `get_translation_from_file` đọc tất cả các dòng từ file .txt và loại bỏ ký tự thừa.
+    - Các file dịch nghĩa phải được lưu trữ trong thư mục chính xác.
+    - Nếu file dịch nghĩa không tồn tại, dòng tương ứng sẽ không được cập nhật.
+"""
+
+
+
 import pandas as pd
 import os
 
