@@ -16,7 +16,7 @@ Output:
 Usage:
     - Định nghĩa đường dẫn file Excel đầu vào và gọi hàm `update_id_with_abbreviations` để cập nhật ID.
     - Chạy script:
-        python update_abbreviation.py
+        python preprocessing.py
 Notes:
     - Cần đảm bảo rằng cột 'ImageBox' chứa dữ liệu hợp lệ dưới dạng chuỗi tọa độ.
     - Các ID phải có định dạng đúng để có thể tách được số trang từ ID.
