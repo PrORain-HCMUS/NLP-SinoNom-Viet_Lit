@@ -27,7 +27,7 @@ def process_images_in_directory(directory_path, output_txt_path):
                 resize_image(image_path, output_file=output_file)
 
 # Thay đường dẫn bằng thư mục chứa hình ảnh và file txt của bạn
-directory_path = '/home/phuc/test_CNN/teinxuly2/input_images_gray_thunhoduoi1000'
-output_txt_path = '/home/phuc/test_CNN/teinxuly2/input_images_gray_thunhoduoi1000/resized_images.txt'
+directory_path = 'MidTerm/filtered_data'
+output_txt_path = 'MidTerm/filtered_data/resized_images.txt'
 
 process_images_in_directory(directory_path, output_txt_path)

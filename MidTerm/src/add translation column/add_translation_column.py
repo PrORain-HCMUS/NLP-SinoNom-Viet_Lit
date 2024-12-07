@@ -70,7 +70,7 @@ def add_translation_column(excel_file_path, txt_dir_path, output_file_path):
 
 # Đường dẫn tới file Excel và thư mục chứa file dịch nghĩa
 excel_file_path = 'MidTerm/output_csv/TTVH6_LHVu_updated.xlsx'
-txt_dir_path = 'D:/Documents/HELP ME/MidTerm/src/add translation column/clean_data'  # Đảm bảo đường dẫn đúng
+txt_dir_path = 'MidTerm/src/add translation column/clean_data'  # Đảm bảo đường dẫn đúng
 output_file_path = 'MidTerm/output_csv/TTVH6_full.xlsx'
 
 # Gọi hàm để thêm cột Dịch nghĩa và lưu file Excel mới
