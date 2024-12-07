@@ -258,3 +258,33 @@ filtered_data/TTVHVN6_page706.png	1
 filtered_data/TTVHVN6_page708.png	1
 filtered_data/TTVHVN6_page709.png	1
 filtered_data/TTVHVN6_page710.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page057.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page058.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page059.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page061.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page062.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page064.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page066.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page067.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page068.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page070.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page072.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page074.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page076.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page079.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page080.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page081.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page082.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page084.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page085.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page087.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page088.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page089.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page090.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page091.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page093.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page095.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page104.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page106.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page132.png	1
+D:\Documents\HELP ME\MidTerm\filtered_data\TTVHVN6_page134.png	1
